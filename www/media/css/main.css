@@ -15,7 +15,7 @@ h1 {
 p {
   font-size: 24px;
   line-height: 1.2;
-  margin: 15px 0 30px 0;
+  margin: 15px 0 18px 0;
   text-align: center;
 }
 
@@ -32,7 +32,7 @@ ul {
 
 li {
   display: inline-block;
-  margin-left: 35px;
+  margin-left: 10px;
 }
 
 li:first-child {
@@ -41,6 +41,7 @@ li:first-child {
 
 li a {
   display: block;
+  padding: 12px;
   text-decoration: none;
 }
 
