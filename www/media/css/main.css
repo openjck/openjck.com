@@ -61,19 +61,23 @@ li h2 {
     font-size: 25px;
 }
 
-#blog:before {
+#sites li a {
+    color: #fff;
+}
+
+#blog a:before {
     content: '\f044';
 }
 
-#github:before {
+#github a:before {
     content: '\f09b';
 }
 
-#twitter:before {
+#twitter a:before {
     content: '\f099';
 }
 
-#email:before {
+#email a:before {
     content: '\f0e0';
 }
 
