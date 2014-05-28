@@ -1,13 +1,13 @@
 body {
   background-image: url("../img/noise.png");
   color: #fff;
-  font-family: Georgia, serif;
+  font-family: Helvetica, Arial, sans-serif;
   margin: auto;
   width: 700px;
 }
 
 h1 {
-  letter-spacing: 0.1em;
+  letter-spacing: 1px;
   margin-bottom: 0;
   text-align: center;
 }
