@@ -56,7 +56,7 @@ li h2 {
 
 /*** Icons ***/
 
-#sites {
+#sites a:before {
     font-family: FontAwesome;
 }
 
