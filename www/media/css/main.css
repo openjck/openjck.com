@@ -76,6 +76,10 @@ li h2 {
     content: '\f099';
 }
 
+#linkedin a:before {
+    content: '\f08c';
+}
+
 #email a:before {
     content: '\f0e0';
 }
