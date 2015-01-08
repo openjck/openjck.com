@@ -1,0 +1,7 @@
+{
+    "name": "openjck.com",
+    "private": true,
+    "dependencies": {
+        "font-awesome": "4.2.0"
+    }
+}
