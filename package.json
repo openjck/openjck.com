@@ -1,0 +1,27 @@
+{
+  "name": "openjck.com",
+  "version": "1.0.0",
+  "description": "Personal website of John Karahalis, software developer, project manager and user experience enthusiast from Mozilla.",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openjck/openjck.com.git"
+  },
+  "author": "John Karahalis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openjck/openjck.com/issues"
+  },
+  "homepage": "https://github.com/openjck/openjck.com",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.10",
+    "gulp-favicons": "*"
+  }
+}
