@@ -1,5 +1,5 @@
 body {
-    background-image: url('../img/noise.png');
+    background: #3A698C url('../img/noise.png');
     font-family: Helvetica, Arial, sans-serif;
 
     /* These properties need to be set on the body, rather than on #wrap,
