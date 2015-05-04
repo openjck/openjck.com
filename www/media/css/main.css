@@ -1,10 +1,7 @@
 body {
     background: #3A698C url('../img/noise.png');
     font-family: Helvetica, Arial, sans-serif;
-
-    /* These properties need to be set on the body, rather than on #wrap,
-       because the body is displayed as a table cell. See the section below on
-       vertical centering. */
+    font-size: 1.5em;
     margin: 0 auto;
     width: 700px;
 }
@@ -14,15 +11,15 @@ body, a {
 }
 
 h1 {
-    letter-spacing: 1px;
+    font-size: 1.4em;
+    letter-spacing: .03em;
     margin-bottom: 0;
     text-align: center;
 }
 
 p {
-    font-size: 24px;
-    line-height: 1.2;
-    margin: 15px 0 18px;
+    line-height: 1.5;
+    margin: .8rem 0 .6rem;
     text-align: center;
 }
 
@@ -35,33 +32,32 @@ ul {
 
 li {
     display: inline-block;
-    margin-left: 10px;
 }
 
 li:first-child {
     margin-left: 0;
 }
 
+/* External site button and label */
 li a {
-  display: block;
-  padding: 12px;
-  text-decoration: none;
+    display: block;
+    font-size: 1.1em;
+    padding: .9em;
+    text-decoration: none;
 }
 
+/* External site label */
 li h2 {
-  font-size: 13px;
-  font-weight: normal;
-  margin: .5em 0;
+    font-size: .8rem;
+    font-weight: normal;
+    margin: .5em 0;
 }
+
 
 /*** Icons ***/
 
 #sites a:before {
     font-family: FontAwesome;
-}
-
-#sites li {
-    font-size: 25px;
 }
 
 #blog a:before {
@@ -84,16 +80,17 @@ li h2 {
     content: '\f0e0';
 }
 
+
 /*** Vertically center ***/
 
 html {
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
 
 body {
-    height: 100%;
     display: table;
+    height: 100%;
 }
 
 #wrap {
@@ -102,5 +99,5 @@ body {
 }
 
 #introduction {
-    margin-top: -20px;
+    margin-top: -1em;
 }
