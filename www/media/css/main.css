@@ -1,9 +1,21 @@
+/* This is especially helpful when vertically centering the main content, as it
+   allows us to change the main content padding without doing any math.
+
+   http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     background: #3A698C url('../img/noise.png');
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.5em;
     margin: 0 auto;
-    width: 700px;
+    max-width: 700px;
+    padding: 25px;
 }
 
 body, a {
