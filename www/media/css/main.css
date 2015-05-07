@@ -54,8 +54,14 @@ li:first-child {
 li a {
     display: block;
     font-size: 1.1em;
-    padding: .9em;
     text-decoration: none;
+
+    /* Give the buttons padding, but also offset that padding with an equivalent
+       negative margin-bottom. Without the offset, the padding would add space
+       below the main content, and the main content would not be perfectly
+       centered vertically. */
+    padding: .9em;
+    margin-bottom: -.9em;
 }
 
 /* External site label */
