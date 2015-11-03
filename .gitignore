@@ -1,4 +1,9 @@
 /www/lib
+/www/build
+
+# Node
+node_modules/
+npm-debug.log
 
 # Icons
 /www/media/icons/*
