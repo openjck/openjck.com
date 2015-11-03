@@ -1,6 +1,6 @@
-www/lib
+/www/lib
 
 # Icons
-www/media/icons/*
-!www/media/icons/base.png
-!www/media/icons/Makefile
+/www/media/icons/*
+!/www/media/icons/base.png
+!/www/media/icons/Makefile
