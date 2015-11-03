@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background: #38648b url('../../build/media/img/noise.png');
+    background: #38648b url('../img/noise.png');
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.5em;
     margin: 0 auto;
