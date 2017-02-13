@@ -94,6 +94,10 @@ li h2 {
     content: '\f08c';
 }
 
+#photos a:before {
+    content: '\f030';
+}
+
 #email a:before {
     content: '\f0e0';
 }
