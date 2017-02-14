@@ -35,6 +35,10 @@ p {
     text-align: center;
 }
 
+section h2 {
+    display: none;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -53,29 +57,24 @@ li:first-child {
 /* External site button and label */
 li a {
     display: block;
-    font-size: 1.1em;
+    font-size: .8rem;
     text-decoration: none;
 
     /* Give the buttons padding, but also offset that padding with an equivalent
        negative margin-bottom. Without the offset, the padding would add space
        below the main content, and the main content would not be perfectly
        centered vertically. */
-    padding: .9em;
-    margin-bottom: -.9em;
+    padding: 1.5rem;
+    margin-bottom: -1.5rem;
 }
-
-/* External site label */
-li h2 {
-    font-size: .8rem;
-    font-weight: normal;
-    margin: .5em 0;
-}
-
 
 /*** Icons ***/
 
 #sites a:before {
+    display: block;
     font-family: FontAwesome;
+    font-size: 1.7rem;
+    margin-bottom: .5rem;
 }
 
 #blog a:before {
@@ -115,7 +114,7 @@ body {
     height: 100%;
 }
 
-#wrap {
+main {
     display: table-cell;
     vertical-align: middle;
 }
@@ -136,7 +135,7 @@ body {
 }
 
 @media all and (max-width: 400px) {
-    #wrap {
+    main {
         vertical-align: top;
     }
 }
