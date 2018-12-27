@@ -1,1 +1,8 @@
-/www/lib
+# Generated files
+dist
+
+# Node
+node_modules
+
+# Parcel
+.cache
