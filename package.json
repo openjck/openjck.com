@@ -1,7 +1,6 @@
 {
     "name": "openjck.com",
     "private": true,
-    "staticPath": ["src/parcel-static"],
     "scripts": {
         "dev": "parcel src/index.html",
         "build": "parcel build src/index.html"
@@ -10,7 +9,6 @@
         "font-awesome": "4.7.0"
     },
     "devDependencies": {
-        "parcel": "1.11.0",
-        "parcel-plugin-static-files-copy": "1.2.4"
+        "parcel": "1.11.0"
     }
 }
