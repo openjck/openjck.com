@@ -9,6 +9,7 @@
         "font-awesome": "4.7.0"
     },
     "devDependencies": {
-        "parcel": "1.11.0"
+        "parcel": "1.11.0",
+        "posthtml-expressions": "1.1.0"
     }
 }
