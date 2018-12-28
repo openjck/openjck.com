@@ -14,3 +14,10 @@
         X-Content-Type-Options = 'nosniff'
         X-Frame-Options = 'DENY'
         X-XSS-Protection = '1; mode=block'
+
+[[redirects]]
+
+    from = "https://thirsty-austin-e8545b.netlify.com/*"
+    to = "https://openjck.com/:splat"
+    status = 302
+    force = true
