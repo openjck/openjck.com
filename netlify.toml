@@ -19,5 +19,5 @@
 
     from = "https://thirsty-austin-e8545b.netlify.com/*"
     to = "https://openjck.com/:splat"
-    status = 302
+    status = 301
     force = true
