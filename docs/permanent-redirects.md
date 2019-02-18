@@ -13,16 +13,16 @@ the corresponding *To* URLs.
     </thead>
     <tbody>
         <tr>
-            <td><a href="http://openjck.com">http://openjck.com</a></td>
-            <td><a href="https://openjck.com/">https://openjck.com/</a></td>
+            <td>http://openjck.com*</td>
+            <td>https://openjck.com[match]</td>
         </tr>
         <tr>
-            <td><a href="http://www.openjck.com">http://www.openjck.com</a></td>
-            <td><a href="https://www.openjck.com/">https://www.openjck.com/</a></td>
+            <td>http://www.openjck.com*</td>
+            <td>https://www.openjck.com[match]</td>
         </tr>
         <tr>
-            <td><a href="https://www.openjck.com">https://www.openjck.com</a></td>
-            <td><a href="https://openjck.com/">https://openjck.com/</a></td>
+            <td>https://www.openjck.com*</td>
+            <td>https://openjck.com[match]</td>
         </tr>
     </tbody>
 </table>
