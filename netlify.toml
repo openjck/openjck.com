@@ -1,6 +1,6 @@
 [[redirects]]
 
-    from = "/*"
-    to = "https://www.johnkarahalis.com"
-    status = 302
-    force = true
+  from = "/*"
+  to = "https://www.johnkarahalis.com"
+  status = 302
+  force = true
